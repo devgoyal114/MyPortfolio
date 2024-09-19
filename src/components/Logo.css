@@ -1,0 +1,48 @@
+@import "animate.css";
+
+.H-logo-container {
+    opacity: 0;
+    font-size: 20em;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    z-index: -1;
+    animation: rollIn 0.4s  3s linear;
+    animation-fill-mode: forwards;}
+
+.H-logo {
+    color: #0071ce;
+    position: relative;
+    transform: rotate(10deg);
+    animation: Logochange 5s linear infinite alternate;
+
+
+}
+
+.H-logo::before {
+    content: 'D';
+    position: absolute;
+    top: 10px;
+    color: #ffcc00;
+    left: 15px;
+    z-index: -1;
+    animation: change 5s linear infinite alternate;
+}
+@keyframes change {
+    from{
+        color:#022c43 ;
+    }
+    to{
+        color:#ffcc00 ;
+    }
+}
+@keyframes Logochange {
+    from{
+        color:#ffcc00 ;
+    }
+    to{
+        color:#022c43 ;
+
+    }
+}

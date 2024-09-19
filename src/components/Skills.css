@@ -1,0 +1,86 @@
+.skills-container{
+    position: absolute;
+    max-width: 500px;
+    top: 10%;
+    left: 10%;
+    animation:backInDown 1.5s  linear ;
+
+}
+.skills-container h1{
+    color: #ffd700;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.skills-container span{
+    font-family: "La Belle Aurore";
+    color: #ffd700;
+    opacity: 0.6;
+    font-size: 18px;
+}
+.overview{
+    line-height: 25px;
+}
+.overview p{
+    color: white;
+    font-size: 15px;
+}
+.overview p span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffd700;
+    opacity: 1;
+    font-size: 15px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    margin: 30px 0px;
+    height: 90vh;
+    overflow: hidden;
+    animation:backInDown 1.5s   linear ;
+}
+.box{
+    animation: scrollIcons 4s 2s linear alternate-reverse infinite ;
+
+}
+    .box svg{
+font-size: 70px;
+}
+
+@keyframes scrollIcons {
+    0% {
+        transform: translateY(-150%);
+      }
+      100% {
+        transform: translateY(150%);
+      }
+    
+  }
+
+  @keyframes XaxisscrollIcons {
+    0% {
+        transform: translateX(-150%);
+      }
+      100% {
+        transform: translateX(150%);
+      }
+    
+  }
+
+  @media (max-width:700px) {
+    .images{
+        flex-direction: row;
+        left: 10%;
+        top: 70%;
+    }
+    .box{
+        animation: XaxisscrollIcons 4s linear alternate-reverse infinite ;
+
+    }
+    .skills-container{
+        left: 5%;
+    }
+  }

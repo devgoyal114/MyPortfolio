@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container{
+    max-width: 500px;
+    position: absolute;
+    top: 10%;
+    margin-right: 20px;
+}
+.contact-me span{
+    color: #ffd700;
+    font-size: 18px;
+    font-family: "La Belle Aurore";
+    opacity: 0.6;
+}
+.contact-me  h1{
+    color: #ffd700;
+    font-size: 50px;
+    margin-left: 20px;
+    animation: backInDown 1s;
+}
+.contact-container p{
+    color: white;
+    font-size: 14px;
+    margin: 20px 0px;
+    animation: backInDown 1s;
+}
+.form-container input, textarea{
+    animation: backInUp 1.5s;
+    height: 50px;
+    width: 98%;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #115173;
+    border: none;
+}
+.form-container .name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.form-container textarea{
+    height: 100px;
+}
+
+.send-btn{
+    margin-top: 10px;
+    padding: 8px 10px;
+    color:  #ffd700;
+    background-color: transparent;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 10px;
+    transition: all 0.2s linear;
+
+}
+.send-btn:hover{
+    background-color: #ffd700;
+    color: #115173;
+}
+
+@media (max-width:600px) {
+    .contact-container{
+        left: 5%;
+    }
+}
