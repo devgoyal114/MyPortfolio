@@ -2,39 +2,28 @@ import React from 'react'
 import "../App.scss"
 import './Project.css';
 import Loader from 'react-loaders';
-import spotifyImage from "../assets/Spotify.jpeg"
-import weather from "../assets/weather.jpg"
 import ReactFlipCard from 'reactjs-flip-card'
 
 
 
 function Projects() {
-  let projectDetails = [{
-    imgSrc: spotifyImage,
-    name: "Spotify Clone",
-    description: "Designed and built a dynamic and responsive web application using HTML, CSS, and JavaScript Incorporated modern design principles to create a user-friendly and visually appealing responsive layout Implemented JavaScript to enhance client-side interactivity, resulting in improved user experience and website functionality",
-    link: "http://postifyyy.freewebhostmost.com/",
-    technology:["HTML", "Css", "Javascript"]
+  let projectDetails = [
+  {
+    name: "ToDoList App",
+    description: "Developed a responsive to do list app using HTML, CSS, JavaScript and React.js",
+    link: "https://todolist114.netlify.app/",
+    technology:["HTML", "Css", "Javascript","React Js"]
   },
   {
-    imgSrc: weather,
-    name: "Weather App",
-    description: "Developed a responsive weather app using HTML, CSS, and JavaScript Utilized the weather API to fetch real-time weather data for various cities",
-    link: "https://harsh-bisla.github.io/Weather-App/",
-    technology:["HTML", "Css", "Javascript", "Api Implementation"]
-  },
-  {
-    imgSrc: "https://user-images.githubusercontent.com/94471189/193782622-db0071f8-122e-4909-83a8-fe5da257febc.png",
-    name: "Text Utils",
-    description: "Developed a text utilty website that helps to manipulate your text in a way that you want..",
-    link: "https://harsh-bisla.github.io/TextUtils/",
+    name: "Notes App",
+    description: "Developed a Notes writing website that helps to writes notes with any titles you want..",
+    link: "https://notes114.netlify.app/",
     technology:["React Js","HTML", "Css", "Javascript","Bootstrap"]
   },
   {
-    imgSrc: "https://user-images.githubusercontent.com/94471189/193782622-db0071f8-122e-4909-83a8-fe5da257febc.png",
-    name: "E - Commerce",
+    name: "Web-Shop",
     description: "This is a fully responsive, modern frontend e-commerce website built with React Js. It features shopping cart functionality, and a product details page. Users can browse products, view details, and add or remove items from their cart.",
-    link: "https://online-shopping-e.vercel.app/",
+    link: "https://webshop114.netlify.app/",
     technology:["React Js","Animate css","Api Implementation","HTML", "Css", "Javascript"]
   }]
 
