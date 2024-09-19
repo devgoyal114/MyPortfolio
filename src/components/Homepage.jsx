@@ -30,7 +30,7 @@ function Homepage() {
     </h1><span className='h-tag'>&lt;h1/&gt;</span> 
     <p>Frontend Developer / React Js</p>
   <Link to="/contact"><button className='contact'>CONTACT ME</button></Link>
-  <a href='HARSH BISLA - RESUME2 (2).pdf' target='_blank'><button className='contact'>Download CV</button></a>
+  <a href='DEV GOYAL - RESUME.pdf' target='_blank'><button className='contact'>Download CV</button></a>
 </div>
 <Logo/>
     </>
